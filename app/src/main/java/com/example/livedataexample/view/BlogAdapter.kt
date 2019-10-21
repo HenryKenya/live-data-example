@@ -14,7 +14,7 @@ import com.example.livedataexample.R
 import com.example.livedataexample.model.Blog
 import java.io.IOException
 
-class BlogAdapter(val blogList: List<Blog>?, val context: Context) : RecyclerView.Adapter<BlogAdapter.ViewHolder>(){
+class BlogAdapter(private val blogList: List<Blog>?, private val context: Context) : RecyclerView.Adapter<BlogAdapter.ViewHolder>(){
 
     override fun onCreateViewHolder(p0: ViewGroup, p1: Int): ViewHolder {
 

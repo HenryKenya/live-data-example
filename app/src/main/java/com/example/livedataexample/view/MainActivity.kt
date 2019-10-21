@@ -1,7 +1,8 @@
-package com.example.livedataexample
+package com.example.livedataexample.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.livedataexample.R
 
 class MainActivity : AppCompatActivity() {
 

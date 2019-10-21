@@ -5,6 +5,7 @@ import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
 data class Blog(
+
     @Json(name = "author")
     var author: String? = null,
     @Json(name = "description")
@@ -17,4 +18,5 @@ data class Blog(
     var thumbnail: String? = null,
     @Json(name = "title")
     var title: String? = null
+
 )
